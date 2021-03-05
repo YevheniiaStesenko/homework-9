@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    height: 2000px;
+}
+header {
+    background: #5C6F4E;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    width: 1105px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul, a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+.container a {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 1.16;
+    color: #FFFFFF;
+    margin-right: 930px;
+}
+.images {
+    display: flex;
+}
+.arrow img {
+    margin-top: 15px;
+    margin-right: 0;
+}
+.images > li {
+    margin-right: 10px;
+}
+.arrow:hover .secondary-list {
+    visibility: visible;
+    opacity: 1;
+}
+.secondary-list {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.backcolor {
+    position: absolute;
+    background: #6F7397;
+    width: 265px;
+    height: 207px;
+}
+.backcolor-light {
+    background-color: #7B89BA;
+    position: absolute;
+    width: 265px;
+    height: 187px;
+}
+.secondary-list a {
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000000;
+    margin-right: 0;
+}
